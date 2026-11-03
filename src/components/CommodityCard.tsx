@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import type {Commodity} from '@/lib/site';
+import Arrow from './Arrow';
+export default function CommodityCard({item}: {item:Commodity}){return <Link href={'/commodities/'+item.slug} className="commodity-card" style={{backgroundImage:'url("'+item.image+'")'}} aria-label={'Explore '+item.name+' commodity sourcing'}><div className="commodity-copy"><span className="card-category">{item.label}</span><h3>{item.name}</h3><p>{item.short}</p><span className="card-read">Explore {item.name.toLowerCase()} <Arrow/></span></div><span className="card-navigate" aria-hidden="true"><Arrow/></span></Link>}

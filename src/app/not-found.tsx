@@ -1,0 +1,2 @@
+import Link from 'next/link';import Arrow from '@/components/Arrow';
+export default function NotFound(){return <section className="not-found"><div className="container"><p className="section-overline">PAGE NOT FOUND / 404</p><h1>That page isn’t here.</h1><p>Try the homepage or get in touch with RunAgri.</p><Link className="btn btn-green" href="/">Return home <Arrow/></Link></div></section>}

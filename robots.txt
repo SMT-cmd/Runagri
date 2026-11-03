@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://runagri.com/sitemap.xml
