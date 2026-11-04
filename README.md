@@ -39,3 +39,7 @@ Server-rendered public pages, per-route metadata/canonical tags, Open Graph, rob
 Commodity/field photographs are remote illustrative Unsplash imagery; review suitability and any required licensing before formal client handoff. The text wordmark/favicon are provisional pending an approved RunAgri identity.
 
 © RunAgri Nigeria Limited
+
+
+### Sorghum image credit
+The sorghum field photo is **Field in Wynne, Arkansas 2.jpg** by **Brandonrush**, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Field_in_Wynne,_Arkansas_2.jpg), published under **CC0 1.0**. A stable Wikimedia thumbnail URL is used for the sorghum card and its detail-page hero, replacing the broken Unsplash asset (404 verified on 4 November 2026). Other website images retain their own existing sources.
