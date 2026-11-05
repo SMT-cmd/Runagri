@@ -13,7 +13,7 @@ export async function POST(request:Request){
  const o=raw as Record<string,unknown>;
  if(o.website)return NextResponse.json({ok:true});
  const e:Enquiry={name:clean(o.name,120),email:clean(o.email,254),company:clean(o.company,160),role:clean(o.role,50),commodity:clean(o.commodity,100),quantity:clean(o.quantity,100),destination:clean(o.destination,160),details:clean(o.details,4000),website:'',consent:o.consent===true};
- if(!e.name||!emailRe.test(e.email)||!['Buyer','Supplier','Exporter','Partner'].includes(e.role)||!['Wheat','Sorghum','Barley','Other agricultural commodity'].includes(e.commodity)||e.details.length<20||!e.consent)return NextResponse.json({error:'Please complete all required enquiry information.'},{status:400});
+ if(!e.name||!emailRe.test(e.email)||!['Buyer','Supplier','Exporter','Partner'].includes(e.role)||!['Wheat','Sorghum','Barley','African Cocoa','Other agricultural commodity'].includes(e.commodity)||e.details.length<20||!e.consent)return NextResponse.json({error:'Please complete all required enquiry information.'},{status:400});
  const key=process.env.RESEND_API_KEY,from=process.env.ENQUIRY_FROM_EMAIL;
  if(!key||!from)return NextResponse.json({error:'Direct email delivery is not configured yet.'},{status:503});
  const pairs=[['Name',e.name],['Email',e.email],['Company',e.company],['Role',e.role],['Commodity',e.commodity],['Quantity',e.quantity],['Origin/destination',e.destination],['Details',e.details]];

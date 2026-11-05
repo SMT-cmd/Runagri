@@ -8,7 +8,7 @@ export const metadata:Metadata={
  metadataBase:new URL(site.domain),
  title:{default:'RunAgri | Agricultural Commodity Sourcing & Trade',template:'%s | RunAgri'},
  description:site.description,applicationName:'RunAgri',robots:{index:true,follow:true,googleBot:{index:true,follow:true,'max-image-preview':'large','max-snippet':-1,'max-video-preview':-1}},
- keywords:['agricultural commodity sourcing Nigeria','industrial grain sourcing Nigeria','wheat supply Nigeria','sorghum sourcing','barley sourcing','agricultural commodity trade Africa'],
+ keywords:['agricultural commodity sourcing Nigeria','industrial grain sourcing Nigeria','wheat supply Nigeria','sorghum sourcing','barley sourcing','African cocoa sourcing','Ghana cocoa trade','agricultural commodity trade Africa'],
  alternates:{canonical:site.domain},openGraph:{type:'website',locale:'en_NG',siteName:'RunAgri',url:site.domain,title:'RunAgri — Agricultural Commodity Sourcing & Trade',description:site.description},twitter:{card:'summary_large_image'},
  icons:{icon:'/favicon.svg'}
 };

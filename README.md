@@ -3,10 +3,10 @@
 This is the responsive, multi-page website for RunAgri Nigeria Limited. Source is now **Next.js App Router, React 19 and TypeScript** rather than hand-authored HTML pages. Marketing pages are rendered on the server for crawlability; interactive navigation and contact enquiries run in client components.
 
 ## Product scope
-RunAgri connects prospective agricultural commodity supply and industrial demand. Priority commodities: wheat, sorghum and barley. We do not fabricate prices, verification status, clients, stock levels, certifications or delivery guarantees.
+RunAgri connects prospective agricultural commodity supply and industrial demand. Priority commodities: wheat, sorghum, barley and African cocoa. We do not fabricate prices, verification status, clients, stock levels, certifications or delivery guarantees.
 
 ## Pages
-`/` · `/about` · `/commodities` · `/commodities/wheat` · `/commodities/sorghum` · `/commodities/barley` · `/buyers` · `/suppliers` · `/process` · `/faq` · `/contact` · `/privacy`.
+`/` · `/about` · `/commodities` · `/commodities/wheat` · `/commodities/sorghum` · `/commodities/barley` · `/commodities/african-cocoa` · `/buyers` · `/suppliers` · `/process` · `/faq` · `/contact` · `/privacy`.
 
 Old `.html` URLs redirect to equivalent routes via `next.config.ts`.
 
@@ -43,3 +43,6 @@ Commodity/field photographs are remote illustrative Unsplash imagery; review sui
 
 ### Sorghum image credit
 The sorghum field photo is **Field in Wynne, Arkansas 2.jpg** by **Brandonrush**, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Field_in_Wynne,_Arkansas_2.jpg), published under **CC0 1.0**. A stable Wikimedia thumbnail URL is used for the sorghum card and its detail-page hero, replacing the broken Unsplash asset (404 verified on 4 November 2026). Other website images retain their own existing sources.
+
+### African cocoa photograph
+**20151118-OSEC-UNK-2935 (23904959686).jpg** (ripe cocoa pods in Ghana, photographed 16 November 2015) by USDAgov via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:20151118-OSEC-UNK-2935_(23904959686).jpg); [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/). Displayed as a cropped cover background in the African Cocoa commodity cards and detail-page hero; the same source and license are linked in the site footer. The asset URL was tested to return HTTP 200 and JPEG bytes.
