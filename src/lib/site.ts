@@ -2,6 +2,7 @@ export const site = {
  name:'RunAgri Nigeria Limited',
  domain:'https://runagri.com',
  email:'frontdesk@runagri.com',
+ registrationNumber:'9848130',
  description:'RunAgri Nigeria Limited facilitates agricultural commodity sourcing and trade between international suppliers and manufacturers across Nigeria and African markets.'
 } as const;
 export const nav=[
